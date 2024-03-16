@@ -13,9 +13,7 @@ html,body{
     width: 100vw;
     height: 100vh;
     color: white;
-    background-image: url(images/background.png);
-    background-position: center;
-    background-size: cover;
+    background: #000;
 }
 .logo{
     font-family: serif;
@@ -55,7 +53,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 7px;
     width: 130px;
     height: 40px;
     border: none;
@@ -64,12 +62,10 @@ html,body{
     color: white;
     position: absolute;
     left: 100px;
-    bottom: 30%;
+    bottom: 31%;
     font-size: 13px;
 }
-.btn{
 
-}
 .img{
     position: absolute;
     right: 10%;

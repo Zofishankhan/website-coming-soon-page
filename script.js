@@ -11,7 +11,7 @@ setInterval(()=>{
     document.querySelector("#days").innerText = days + " :";
     document.querySelector("#hours").innerText = hours + " :";
     document.querySelector("#minutes").innerText = minutes + " :";
-    document.querySelector("#seconds").innerText = seconds + " :";
+    document.querySelector("#seconds").innerText = seconds;
 
 
     if(distance<0){
